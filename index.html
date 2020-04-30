@@ -5,16 +5,19 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>URI Dencoder</title>
     <script src="index.js"></script>
+    <link rel="stylesheet" type="text/css" href="reset.css">
+    <link rel="stylesheet" type="text/css" href="index.css">
 </head>
 <body>
+    <header>
+        <h1>URI Dencoder</h1>
+    </header>
     <main>
         <input id="text" type="text" />
-        <div class="buttons">
-            <button onclick="encode()">Encode URI</button>
-            <button onclick="decode()">Decode URI</button>
-            <button onclick="encodeComponent()">Encode URI Component</button>
-            <button onclick="decodeComponent()">Decode URI Component</button>
-        </div>
+        <button onclick="encode()">Encode URI</button>
+        <button onclick="decode()">Decode URI</button>
+        <button onclick="encodeComponent()">Encode URI Component</button>
+        <button onclick="decodeComponent()">Decode URI Component</button>
     </main>
 </body>
 </html>

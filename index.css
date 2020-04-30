@@ -1,0 +1,30 @@
+main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+header {
+    font-size: 3em;
+    text-align: center;
+    margin: 1em 0;
+}
+
+h1 {
+
+}
+
+input {
+    font-size: 1.2em;
+    width: 95vw;
+    margin: 0 2.5vw;
+    height: 2em;
+    text-align: center;
+}
+
+button {
+    font-size: 1.2em;
+    width: 20vw;
+    min-height: 3em;
+    margin: 2em 2.5vw 0 2.5vw;
+}
